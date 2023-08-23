@@ -13,10 +13,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 var pusher = new Pusher({
-    appId: APP_ID,
-    key: APP_KEY,
-    secret: APP_SECRET,
-    cluster: APP_CLUSTER   
+    appId: '1657589',
+    key: '4c10ca6bca108226474e',
+    secret: 'c6d11bc58f12333421d6',
+    cluster: 'eu'   
 });
 
 app.post('/message', function(req, res) {
